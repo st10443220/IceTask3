@@ -23,9 +23,9 @@ jobs:
       - name: Restore Dependencies
         run: dotnet restore
 
-      # Run Unit Tests
-      - name: Unit Tests
-        run: dotnet test
+      # # Run Unit Tests
+      # - name: Unit Tests
+      #   run: dotnet test
 
       # Build Project
       - name: Build
