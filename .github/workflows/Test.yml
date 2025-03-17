@@ -1,4 +1,5 @@
 name: C# Build and Syntax Check
+
 on:
   push: 
     branches: ["master"] # Change to the branch where code is published
